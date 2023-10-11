@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/phone"
-        android:text="Generate OTP"
+        android:text="Send OTP"
         android:textSize="20dp"
         />
     <EditText

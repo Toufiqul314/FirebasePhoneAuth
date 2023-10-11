@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     private void sendverificationcode(String phoneNumber) {
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(mAuth)
-                        .setPhoneNumber("+880"+phoneNumber)       // Phone number to verify
+                        .setPhoneNumber("+88"+phoneNumber)       // Phone number to verify
                         .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
                         .setActivity(this)                 // (optional) Activity for callback binding
                         // If no activity is passed, reCAPTCHA verification can not be used.
